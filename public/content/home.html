@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script src="/js/carousel.js"></script>
+		<!--styling the content inside of the carousel -->
+		<style type="text/css">
+		
+		p {
+			text-align:center;
+		}
+		
+		.center-image {
+			text-align: center;
+			img {
+			margin: 0 auto;}
+		}
+		</style>
+
+<!--Carousel- consult the Twitter Bootstrap docs at 
+	http://twitter.github.com/bootstrap/javascript.html#carousel -->
+<div id="this-carousel-id" class="carousel slide"><!-- class of slide animation -->
+	<div class="carousel-inner">
+		<div class="item active">
+			<div class="center-image">
+				<img src="/images/ShaveIt.jpg" alt="Shave It" />
+			</div>
+			<div class="carousel-caption">
+				<p>Shave It off and Weigh It!</p>
+			</div>
+		</div>
+		<div class="item">
+			<div class="center-image">
+				<img src="/images/LanceJeremy.jpg" alt="Lance and Jeremy" />
+			</div>
+			<div class="carousel-caption">
+				<p>Screaming our faces off!</p>
+			</div>
+		</div>
+		<div class="item">
+			<div class="center-image">
+				<img src="/images/LilWisco.jpg" alt="The Lil' Wisco" />
+			</div>
+			<div class="carousel-caption">
+				<p>The Lil' Wisconsin</p>
+			</div>
+		</div>
+	</div>
+	<!-- Next and Previous controls -->
+	<a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
+	<a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
+</div><!-- end of carousel -->
+
+</html>
