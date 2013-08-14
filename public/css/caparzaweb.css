@@ -1,0 +1,119 @@
+   /* Large desktop */
+      @media (min-width: 980px) {
+        body {
+         padding-top: 35px;
+        }
+      
+      }
+
+      /* Landscape phones and down */
+
+      @media (max-width: 480px) {
+        .copy {
+         padding: 2.5% 10%;
+        }
+      }
+
+	  .dropdown-backdrop{
+		position: static;
+		}
+      /* All form factors */
+      
+      body {
+	   background-color:#C8A67A;
+	   background-size: cover;
+	   background-repeat:no-repeat;
+	   background-attachment:fixed;
+	   background-position:center;
+       font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+      }
+	  
+	  
+	
+
+
+      p.lead {
+       padding-top: 1.5%;
+       font-size: 24 px;
+       line-height: 30px;
+      }
+	  
+
+      p {
+       font-size: 18px;
+       line-height: 24px;
+      }
+	  
+	  .navbar {
+	     margin-bottom: 0px;
+	   }
+	   
+	  .container {
+	   margin-top: 10px;
+	   margin-bottom: 0px;
+	   padding: 0px;
+	   }
+	  
+	  .heading {
+	   margin: 10px 0px 0px 0px;
+	   }
+	  .navigation {
+		margin: 0px 0px 0px 0px;
+	  }
+      .navigation, .pitch, .footer {
+       padding: 5px 0px 0px 0px;
+      }
+      
+      .pitch {
+	   margin: 0px 0px 0px 0px;
+      }
+	  .content{
+	   padding: 1px 1px 1px 1px;
+	  }
+	  
+	  .feed{
+	   padding: 1px 1px 1px 1px;
+	  }
+	  .footer {
+	   margin: 0px 0px 0px 0px;
+	   
+	  }
+	  table {
+		border: 0px;
+	  }
+	  /* http://support.addthis.com/customer/portal/questions/1136093-share-buttons-in-center-position */      
+	  div.addthis_toolbox {
+		width: 120px;
+		margin: 0 auto;
+	  }
+	  
+	  @font-face {
+		font-family: Lobster;
+		font-style: normal;
+		font-weight: 400;
+		src: url(http://themes.googleusercontent.com/static/fonts/lobster/v5/9eID_a1kLfzp_BP9s4L15g.woff) format('woff');
+	  }
+	  
+	  .Lobster-head {
+		font-family: Lobster, Georgia, serif;
+		font-size: 40px;
+		line-height:50px;
+		text-decoration:underline;
+		text-shadow:2px 2px #707070;
+	  }
+	  
+	  .Lobster-mini {
+		font-family: Lobster, Georgia, serif;
+		font-size: 18px;
+		line-height:20px;
+		text-decoration:underline;
+		text-shadow:1px 1px #707070;
+	  }
+	  
+	  .Lobster-subhead {
+		font-family: Lobster, Georgia, serif;
+		font-size: 30px;
+		line-height:36px;
+		text-decoration:underline;
+		text-shadow:2px 2px #707070;
+	  }
