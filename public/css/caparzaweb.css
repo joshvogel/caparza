@@ -82,6 +82,10 @@
 	  table {
 		border: 0px;
 	  }
+	  
+	  .embed-img {
+		box-shadow: 8px 8px 5px #333333;
+	  }
 	  /* http://support.addthis.com/customer/portal/questions/1136093-share-buttons-in-center-position */      
 	  div.addthis_toolbox {
 		width: 120px;
