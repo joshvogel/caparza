@@ -43,7 +43,7 @@
        font-size: 18px;
        line-height: 24px;
       }
-	  
+	  /*bootstrap class adjustments*/
 	  .navbar {
 	     margin-bottom: 0px;
 	   }
@@ -64,7 +64,7 @@
       .navigation, .pitch, .footer {
        padding: 5px 0px 0px 0px;
       }
-      
+      /*declared classes for Caparza site*/
       .pitch {
 	   margin: 0px 0px 0px 0px;
       }
@@ -79,10 +79,12 @@
 	   margin: 0px 0px 0px 0px;
 	   
 	  }
+	  /*remove border from bootstrap elements*/
 	  table {
 		border: 0px;
 	  }
-	  
+	  /*class to add drop shadow to box elements. 
+	  Mostly pictures*/
 	  .embed-img {
 		box-shadow: 8px 8px 5px #333333;
 	  }
@@ -95,6 +97,8 @@
 		margin: 0 auto;
 	  }
 	  
+	  /*Custom header font and 
+	  the sizes for the headers*/
 	  @font-face {
 		font-family: Lobster;
 		font-style: normal;
@@ -125,3 +129,13 @@
 		text-decoration:underline;
 		text-shadow:2px 2px #707070;
 	  }
+	  
+	  /*style for the show table cells*/
+	  th {
+		background-color:#AA6342;
+		text-align:center;
+	  }
+	  td {
+		background-color:#F5DEB3;
+		text-align:center;
+		}
