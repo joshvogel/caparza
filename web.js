@@ -1,7 +1,7 @@
 var express = require('express');
 var http = require('http');
 var path = require('path');
-
+require('date-utils');
 var app = express.createServer(express.logger());
 
 //app.set('port', process.env.PORT || 8080);
@@ -30,12 +30,12 @@ app.get('/', function(request,response){
 app.get('/status', function(req, res){
     facebook.api('/caparza/posts', { limit: 8 }, function(err, data) {
     var messages = data.data;
-
+	var date = new Date();
+	//var d;
     for (var i=0, l=messages.length; i<l; i++) {
-
         if (messages[i].message) {
-
-            res.write('<p style="text-align:left; font-size:12px"><b>Caparza:</b> ' + messages[i].message + '</p>');
+			var date = new Date(messages[i].created_time);
+            res.write('<p style="text-align:left; font-size:12px"><b>Caparza:</b> ' + messages[i].message + '<br><b>' + date.toDateString() +'</b></p>');
         }
     }
 
