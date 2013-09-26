@@ -5,6 +5,8 @@
 	  $('#feed').load('/content/feed.html');
 	 
 	//handle click selector
+	
+
 	$('ul#nav li a').click(function() {
 		var page = $(this).attr('href');
 		$('#content').load('/content/' + page + '.html');
